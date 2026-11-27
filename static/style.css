@@ -5,7 +5,8 @@
 .menuTitle {
     margin-top: 15%;
     text-align: center;
-    font-size: 60px;
+    font-size: 7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .menuButtonBox{
     display: flex;
@@ -20,8 +21,53 @@
     background-color: rgb(140, 141, 119);
     width: 200px;
     border: 10px;
-    border-radius: 6px
+    border-radius: 6px;
+    font-size: 1.7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
 }
 .menuButton:hover{
-    background-color: rgb(254, 255, 191);
+    background-color: rgb(177, 178, 158);
 }
+.menuOhjeetIkkuna{
+    display: none;
+    justify-self: center;
+    justify-content: center;
+    background-color: rgba(153, 153, 153, 0.909);
+    margin-top: 70px;
+    border: 5px;
+    border-radius: 10px;
+}
+.menuOhjeetIkkuna:target{  /* Voi olla, että tämä lähtee pois. Tämä osuus odottaa id selaimessa ja kun saa näyttää näitä tietoja. linkki mistä löysin:https://www.w3schools.com/cssref/sel_target.php */
+    display: flex;
+    width: 900px;
+    height: 400px;
+}
+.menuOhjeet{
+    margin-top: 40px;
+}
+.menuOhjeetTeksti{
+    justify-self: center;
+    font-size: 1.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menuOhjeetButton{
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(140, 141, 119);
+    width: 150px;
+    border:10px;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.menuOhjeetButton:hover{
+    background-color: rgb(174, 176, 149);
+}
+/* Alexeyin menu osuus loppu*/
